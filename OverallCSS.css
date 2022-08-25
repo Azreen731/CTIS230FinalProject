@@ -1,0 +1,20 @@
+body {
+    background-color:rgba(153, 205, 50, 0.349);
+    font-family: 'Quicksand', sans-serif;
+}
+
+div.destinations {
+    display: flex;
+    width: 80%;
+    flex-direction:row;
+    text-align:center;
+}
+
+div.continent {
+    display:flex;
+    border: 2px dashed black;
+    width: 60%;
+    padding: 5px;
+    margin: 7px;
+    justify-content: space-around;
+}
