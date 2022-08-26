@@ -1,3 +1,10 @@
+div.header {
+    display:flex;
+    background-color:rgb(255, 255, 255);
+    align-items:center;
+    justify-content: center;
+}
+
 body {
     background-color:rgba(119, 136, 153, 0.178);
     font-family: 'Quicksand', sans-serif;
@@ -45,4 +52,11 @@ div.Button {
     justify-content: space-around;
 }
 /*----------------------------------*/
+
+div#banner {
+    background-color:ghostwhite;
+    padding: 10px;
+    border: 1px;
+
+}
 
