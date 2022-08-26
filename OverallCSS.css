@@ -13,14 +13,10 @@ a:hover {
     text-decoration:none;
 }
 
-<<<<<<< Updated upstream
 /*Destinations FlexBox*/
-=======
 h1, h2, h3 {
     font-family: 'Yeseva One', cursive;   
 }
-
->>>>>>> Stashed changes
 div.destinations {
     display: flex;
     flex-wrap: wrap;
