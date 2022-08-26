@@ -16,17 +16,15 @@ a:hover {
 /*Destinations FlexBox*/
 div.destinations {
     display: flex;
-    width: 80%;
-    flex-direction:row;
-    text-align:center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 div.continent {
-    display:flex;
     border: 2px dashed black;
-    width: 60%;
+    text-align: center;
+    width: 25%;
     padding: 5px;
     margin: 7px;
-    justify-content: space-around;
 }
 /*------------------------------------*/
 
