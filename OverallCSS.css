@@ -1,15 +1,25 @@
 body {
-    background-color:rgba(153, 205, 50, 0.349);
+    background-color:rgba(119, 136, 153, 0.178);
     font-family: 'Quicksand', sans-serif;
 }
+a:link {
+    font-style:bold;
+    color:yellowgreen;
+    text-decoration:none;
+}
+a:hover {
+    color:chocolate;
+    font-size:large;
+    text-decoration:none;
+}
 
+/*Destinations FlexBox*/
 div.destinations {
     display: flex;
     width: 80%;
     flex-direction:row;
     text-align:center;
 }
-
 div.continent {
     display:flex;
     border: 2px dashed black;
@@ -18,3 +28,20 @@ div.continent {
     margin: 7px;
     justify-content: space-around;
 }
+/*------------------------------------*/
+
+/*Navigation Bar*/
+div.Navigation {
+    display:flex;
+    flex-direction:row;
+}
+div.Button {
+    width: calc 60% - 20px;
+    font-size: large;
+    border: 3px solid cadetblue;
+    margin-left: 5px;
+    padding: 4px;
+    justify-content: space-around;
+}
+/*----------------------------------*/
+
