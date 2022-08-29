@@ -30,7 +30,7 @@ a:link {
 }
 a:hover {
     color:chocolate;
-    font-size:large;
+    font-size:110%;
     text-decoration:none;
 }
 
@@ -51,10 +51,16 @@ div.continent {
     border: 2px dashed black;
     text-align: center;
     width: 25%;
-    padding: 15px;
+    padding: 50px;
     margin: 15px;
     background-image: url(Images/CentralAmericaCover.jpg);
     background-size:cover;
+    opacity: 0.8;
+}
+
+
+div.continent:hover {
+    opacity: 1;
 }
 /*------------------------------------*/
 
