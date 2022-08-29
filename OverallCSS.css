@@ -1,9 +1,18 @@
-div.header {
-    display:flex;
+header {
     background-color:rgb(255, 255, 255);
-    align-items:center;
-    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    font-size:160%;
+    position: relative;
+
+    
 }
+
+strong {
+    color:gold;
+}
+
 
 body {
     background-color:rgba(119, 136, 153, 0.178);
@@ -42,21 +51,17 @@ div.continent {
 div.Navigation {
     display:flex;
     flex-direction:row;
+    justify-content: center;
+    
 }
 div.Button {
     width: calc 60% - 20px;
     font-size: large;
+    text-align:center;
     border: 3px solid cadetblue;
     margin-left: 5px;
     padding: 4px;
-    justify-content: space-around;
+    justify-content: space-around; 
 }
 /*----------------------------------*/
-
-div#banner {
-    background-color:ghostwhite;
-    padding: 10px;
-    border: 1px;
-
-}
 
