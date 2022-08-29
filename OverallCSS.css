@@ -22,7 +22,6 @@ body {
     background-color:rgba(119, 136, 153, 0.178);
     font-family: 'Quicksand', sans-serif;
     margin: 20px;
-
 }
 a:link {
     font-style:bold;
@@ -40,7 +39,8 @@ h1,h2, h3 {
     font-family: 'Yeseva One', cursive;   
 }
 h4 {
-    color: yellowgreen;
+    font-family:'Quicksand',sans-serif;
+    color: black;
 }
 div.destinations {
     display: flex;
@@ -51,8 +51,10 @@ div.continent {
     border: 2px dashed black;
     text-align: center;
     width: 25%;
-    padding: 5px;
-    margin: 7px;
+    padding: 15px;
+    margin: 15px;
+    background-image: url(Images/CentralAmericaCover.jpg);
+    background-size:cover;
 }
 /*------------------------------------*/
 
@@ -92,4 +94,10 @@ div.Destinations:hover {
 opacity: 1;
 }
 
+@media (max-width : 750px){
+    body {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
 
