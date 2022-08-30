@@ -49,7 +49,7 @@ div.destinations {
     justify-content: space-around;
 }
 div.continent {
-    border: 2px dashed black;
+    border: 1px solid gray;
     text-align: center;
     width: 25%;
     padding: 50px;
@@ -59,7 +59,27 @@ div.continent {
     opacity: 0.8;
 }
 
+#contlink {
+    color: white;
+    font-style: bolder;
+    font-family: 'Quicksand', sans-serif;
+}
 
+#northamerica {
+    background-image: url(Images/NorthAmericaCover.jpg);
+}
+#centralamerica {
+    background-image: url(Images/CentralAmericaCover.jpg);
+}
+#europe {
+    background-image: url(Images/EuropeCover.jpg);
+}
+#middleeast {
+    background-image: url(Images/MiddleEastCover.jpg);
+}
+#asia {
+    background-image: url(Images/AsiaCover.jpg);
+}
 div.continent:hover {
     opacity: 1;
 }
