@@ -1,4 +1,4 @@
-/*HomePage Header*/
+/*HomePage Header-----------------------*/
 
 header {
     background-color:rgb(255, 255, 255);
@@ -16,7 +16,7 @@ strong {
 
 /*------------------------------------*/
 
-/*Overall body format and links */
+/*Overall body format and links --------*/
 
 body {
     background-color:rgba(119, 136, 153, 0.178);
@@ -34,8 +34,9 @@ a:hover {
     font-size:110%;
     text-decoration:none;
 }
+/*--------------------------------------*/
 
-/*Destinations FlexBox*/
+/*Destinations FlexBox------------------*/
 h1,h2, h3 {
     font-family: 'Yeseva One', cursive;   
 }
@@ -49,7 +50,7 @@ div.destinations {
     justify-content: space-around;
 }
 div.continent {
-    border: 1px solid gray;
+    border: 1px  gray;
     text-align: center;
     width: 25%;
     padding: 50px;
@@ -57,12 +58,19 @@ div.continent {
     background-image: url(Images/CentralAmericaCover.jpg);
     background-size:cover;
     opacity: 0.8;
+    border-radius: 1em;
 }
 
 #contlink {
     color: white;
+    font-size:20px;
     font-style: bolder;
     font-family: 'Quicksand', sans-serif;
+}
+
+#contlink:hover {
+    font-size:160%;
+    font-style:oblique;
 }
 
 #northamerica {
@@ -85,7 +93,7 @@ div.continent:hover {
 }
 /*------------------------------------*/
 
-/*Navigation Bar*/
+/*Navigation Bar*---------------------*/
 div.Navigation {
     display:flex;
     flex-direction:row;
@@ -97,10 +105,11 @@ div.Button {
     font-size: large;
     text-align:center;
     border: 3px solid cadetblue;
-    background-color:white;
+    background-color:whitesmoke;
     margin-left: 5px;
     padding: 4px;
     justify-content: space-around; 
+    border-radius: 0.5em;
 }
 /*----------------------------------*/
 
@@ -124,7 +133,7 @@ div.Destinations:hover {
 opacity: 1;
 }
 
-/*------------------------------------*/
+/*------------------------------------------------------*/
 
 /*Section of HomePage that Advertises Gallery is Here */
 div.Gallery {
