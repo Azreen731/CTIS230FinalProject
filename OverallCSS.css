@@ -153,6 +153,17 @@ div.Gallery:hover {
     opacity:1;
 }
 
+div.button div.destidropdown a {
+    display: none;
+    text-decoration: none;
+    color: green;
+    padding: 4px 4px;
+}
+
+div.button:hover div.destidropdown a {
+    display:block;
+}
+
 @media (max-width : 750px){
     body {
         margin-left: 3%;
