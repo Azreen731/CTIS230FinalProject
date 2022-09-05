@@ -1,7 +1,7 @@
 /*HomePage Header-----------------------*/
 
 header {
-    background-color:rgb(255, 255, 255);
+    background-color:white;
     background-position: center top;
     text-align: center;
     padding: 10px;
@@ -38,6 +38,7 @@ a:hover {
     font-size:110%;
     border-bottom: 2px solid gold;
 }
+
 /*--------------------------------------*/
 
 /*Destinations FlexBox------------------*/
@@ -48,54 +49,7 @@ h4 {
     font-family:'Quicksand',sans-serif;
     color: yellowgreen;
 }
-div.destinations {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-div.continent {
-    border: 1px  gray;
-    text-align: center;
-    width: 25%;
-    padding: 50px;
-    margin: 15px;
-    background-image: url(Images/CentralAmericaCover.jpg);
-    background-size:cover;
-    opacity: 0.8;
-    border-radius: 1em;
-}
 
-#contlink {
-    color: white;
-    font-size:20px;
-    font-style: bolder;
-    font-family: 'Quicksand', sans-serif;
-}
-
-#contlink:hover {
-    font-size:160%;
-    font-style:oblique;
-}
-
-#northamerica {
-    background-image: url(Images/NorthAmericaCover.jpg);
-}
-#centralamerica {
-    background-image: url(Images/CentralAmericaCover.jpg);
-}
-#europe {
-    background-image: url(Images/EuropeCover.jpg);
-}
-#middleeast {
-    background-image: url(Images/MiddleEastCover.jpg);
-}
-#asia {
-    background-image: url(Images/AsiaCover.jpg);
-}
-div.continent:hover {
-    opacity: 1;
-}
-/*------------------------------------*/
 
 /*Navigation Bar*---------------------*/
 div.Navigation {
@@ -115,7 +69,20 @@ div.Button {
     border-radius: 0.5em;
     height:1.50em;
 }
-/*----------------------------------*/
+/*------------------------------------*/
+
+/*Drop-down menu for Navigation Bar*--*/
+div.Button div.destidropdown a {
+    display: none;
+    text-decoration: none;
+    padding: 2px 2px;
+    background-color:whitesmoke
+}
+
+div.Button:hover div.destidropdown a {
+    display: block;
+}
+/*---------------------------------------------------------*/
 
 /*Section of HomePage that Advertises Destinations is Here*/
 
@@ -126,7 +93,7 @@ div.Destinations {
     padding-bottom: 150px;
     padding-left: 30px;
     padding-right: 30px;
-    background-image:url(Images/destinationsBanner.jpg);
+    background-image:url(Images/destinationsBanner_small.jpg);
     background-size: cover;
     border-radius: 1em;
     width:90%;
@@ -147,7 +114,7 @@ div.Gallery {
     padding-bottom: 150px;
     padding-left: 30px;
     padding-right: 30px;
-    background-image:url(Images/GalleryCover.jpg);
+    background-image:url(Images/GalleryBanner_small.jpg);
     background-size: cover;
     border-radius: 1em;
     width:90%;
@@ -157,15 +124,78 @@ div.Gallery:hover {
     opacity:1;
 }
 
-div.Button div.destidropdown a {
-    display: none;
-    text-decoration: none;
-    padding: 2px 2px;
+/*------------------------------------------------------*/
+
+/*Section of HomePage that Advertises World Map is Here */
+div.WorldMap {
+    background-position: center;
+    margin:10px;
+    padding-top:150px;
+    padding-bottom: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image:url(Images/worldMapBanner.jpg);
+    background-size: cover;
+    border-radius: 1em;
+    width:90%;
+    opacity:.7; 
 }
 
-div.Button:hover div.destidropdown a {
-    display: block;
+div.WorldMap:hover {
+    opacity:1;
 }
+
+/*------------------------------------------------------*/
+/*Destinations Page Formatting Is Here*-----------------*/
+div.destinations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.continent {
+    border: 1px  gray;
+    text-align: center;
+    width: 25%;
+    padding: 50px;
+    margin: 15px;
+    /* background-image: url(Images/CentralAmericaCover.jpg); */
+    background-size:cover;
+    opacity: 0.8;
+    border-radius: 1em;
+}
+
+#contlink {
+    color: white;
+    font-size:20px;
+    font-style: bolder;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#contlink:hover {
+    font-size:160%;
+    font-style:oblique;
+}
+
+#northamerica {
+    background-image: url(Images/NorthAmericaCover.jpg);
+}
+
+#centralamerica {
+    background-image: url(Images/CentralAmericaCover.jpg);
+}
+#europe {
+    background-image: url(Images/EuropeCover.jpg);
+}
+#middleeast {
+    background-image: url(Images/MiddleEastCover.jpg);
+}
+#asia {
+    background-image: url(Images/AsiaCover.jpg);
+}
+div.continent:hover {
+    opacity: 1;
+}
+/*------------------------------------*/
 
 @media (max-width : 750px){
     body {
