@@ -96,12 +96,15 @@ div.homepagebutton:hover {
 /*Drop-down menu for Navigation Bar*--*/
 div.Button div.destidropdown a {
     display: none;
+    position:absolute;
     text-decoration: none;
     padding: 2px 2px;
-    background-color:whitesmoke
+    background-color:whitesmoke;
+    
 }
 div.Button:hover div.destidropdown a {
     display: block;
+    position: relative;
 }
 /*---------------------------------------------------------*/
 
@@ -117,7 +120,8 @@ div.Destinations {
     background-size: cover;
     border-radius: 1em;
     width:90%;
-    opacity:.7;
+    opacity: 0.7;
+    
 }
 div.Destinations:hover {
 opacity: 1;
@@ -247,30 +251,7 @@ div.place{
     
 /*------------------------------------*/
 /*Responsive Web Design*--------------*/
-
-/*Topic flex boxes for each continent page is here*/
-div.contentflex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-div.topic {
-    border:2px solid gold;
-    padding: 10px;
-    margin: 2px;
-    width: 250px;
-    border-radius:0.5em;
-    background-color:whitesmoke;
-}
-#section {
-    background-color: rgba(174, 207, 107, 0.274);
-    padding:20px;
-    margin-top:30px;
-    margin-bottom:30px;
-    border-radius:0.5em;
-}
-/*---------------------------------------------------*/
-
+/*------------------------------------------------------*/
 @media (max-width : 750px){
     body {
         margin-left: 3%;
