@@ -211,19 +211,55 @@ div.continent {
 #centralamerica {
     background-image: url(Images/CentralAmericaCover.jpg);
 }
+
 #europe {
     background-image: url(Images/EuropeCover.jpg);
 }
+
 #middleeast {
     background-image: url(Images/MiddleEastCover.jpg);
 }
+
 #asia {
     background-image: url(Images/AsiaCover.jpg);
 }
+
 div.continent:hover {
     opacity: 1;
 }
+
+/*Highlights*--------------------*/
+div.Highlights {
+    display:flex;
+    flex-direction:row;
+    justify-content: center; 
+}
+div.place{
+    border: 1px  gray;
+    text-align: center;
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 20px;
+    background-size:cover;
+    opacity: 0.8;
+    border-radius: 1em;  
+}
+    #mexicoHighlight{
+        background-image: url(Images/mexicoHighlight.jpg);
+    }
+
+    #costaRicaHighlight {
+        background-image: url(Images/costaRicaHighlight.jpg)
+    }
+    #arubaHighlight {
+        background-image: url(Images/arubaHighlight.jpg)
+    }
+    
 /*------------------------------------*/
+/*Responsive Web Design*--------------*/
 
 @media (max-width : 750px){
     body {
