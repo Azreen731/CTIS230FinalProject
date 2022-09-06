@@ -249,9 +249,30 @@ div.place{
         background-image: url(Images/arubaHighlight.jpg)
     }
     
-/*------------------------------------*/
+/*Topic flex boxes for each continent page is here*/
+div.contentflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.topic {
+    border:2px solid gold;
+    padding: 10px;
+    margin: 2px;
+    width: 250px;
+    border-radius:0.5em;
+    background-color:whitesmoke;
+}
+#section {
+    background-color: rgba(174, 207, 107, 0.274);
+    padding:20px;
+    margin-top:30px;
+    margin-bottom:30px;
+    border-radius:0.5em;
+}
+/*---------------------------------------------------*/
+
 /*Responsive Web Design*--------------*/
-/*------------------------------------------------------*/
 @media (max-width : 750px){
     body {
         margin-left: 3%;
