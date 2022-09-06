@@ -19,7 +19,7 @@ strong {
 /*Overall body format and links --------*/
 
 body {
-    background-color:rgba(119, 136, 153, 0.178);
+    background-color:rgba(222, 227, 231, 0.267);
     font-family: 'Quicksand', sans-serif;
     margin: 20px;
 }
@@ -69,6 +69,34 @@ div.Button {
     border-radius: 0.5em;
     height:1.50em;
 }
+
+div.homepagebutton {
+    width: calc(60%-20px);
+    font-size: large;
+    text-align:center;
+    background-color:transparent;
+    border: 2px solid whitesmoke;
+    padding: 4px;
+    justify-content: space-around; 
+    border-radius: 0.6em;
+    height:1.50em;
+    width: fit-content;
+    
+}
+div.homepagebutton:hover {
+    background-color: rgba(245, 245, 245, 0.678);
+    transition-duration: 0.4s;
+    transform-origin: right;
+    opacity:0.5em;
+
+}
+ #home {
+    color:white;
+ }
+
+ #home:hover {
+    color:black;
+ }
 /*------------------------------------*/
 
 /*Drop-down menu for Navigation Bar*--*/
