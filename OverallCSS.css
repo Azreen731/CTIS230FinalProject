@@ -231,6 +231,9 @@ div.place{
     opacity: 0.8;
     border-radius: 1em;  
 }
+    #highlightlink{
+        color:white;
+    }
     #mexicoHighlight{
         background-image: url(Images/mexicoHighlight.jpg);
     }
