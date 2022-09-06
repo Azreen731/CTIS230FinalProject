@@ -1,5 +1,4 @@
 /*HomePage Header-----------------------*/
-
 header {
     background-color:white;
     background-position: center top;
@@ -13,11 +12,9 @@ header {
 strong {
     color:gold;
 }
-
 /*------------------------------------*/
 
 /*Overall body format and links --------*/
-
 body {
     background-color:rgba(222, 227, 231, 0.267);
     font-family: 'Quicksand', sans-serif;
@@ -38,7 +35,6 @@ a:hover {
     font-size:110%;
     border-bottom: 2px solid gold;
 }
-
 /*--------------------------------------*/
 
 /*Destinations FlexBox------------------*/
@@ -49,7 +45,7 @@ h4 {
     font-family:'Quicksand',sans-serif;
     color: yellowgreen;
 }
-
+/*--------------------------------------*/
 
 /*Navigation Bar*---------------------*/
 div.Navigation {
@@ -63,13 +59,12 @@ div.Button {
     font-size: large;
     text-align:center;
     background-color:whitesmoke;
-    margin-left: 5px;
+    margin: 10px;
     padding: 4px;
     justify-content: space-around; 
     border-radius: 0.5em;
     height:1.50em;
 }
-
 div.homepagebutton {
     width: calc(60%-20px);
     font-size: large;
@@ -93,7 +88,6 @@ div.homepagebutton:hover {
  #home {
     color:white;
  }
-
  #home:hover {
     color:black;
  }
@@ -106,14 +100,12 @@ div.Button div.destidropdown a {
     padding: 2px 2px;
     background-color:whitesmoke
 }
-
 div.Button:hover div.destidropdown a {
     display: block;
 }
 /*---------------------------------------------------------*/
 
 /*Section of HomePage that Advertises Destinations is Here*/
-
 div.Destinations {
     background-position: center;
     margin:10px;
@@ -127,11 +119,9 @@ div.Destinations {
     width:90%;
     opacity:.7;
 }
-
 div.Destinations:hover {
 opacity: 1;
 }
-
 /*------------------------------------------------------*/
 
 /*Section of HomePage that Advertises Gallery is Here */
@@ -151,7 +141,6 @@ div.Gallery {
 div.Gallery:hover {
     opacity:1;
 }
-
 /*------------------------------------------------------*/
 
 /*Section of HomePage that Advertises World Map is Here */
@@ -168,12 +157,11 @@ div.WorldMap {
     width:90%;
     opacity:.7; 
 }
-
 div.WorldMap:hover {
     opacity:1;
 }
-
 /*------------------------------------------------------*/
+
 /*Destinations Page Formatting Is Here*-----------------*/
 div.destinations {
     display: flex;
@@ -191,23 +179,19 @@ div.continent {
     opacity: 0.8;
     border-radius: 1em;
 }
-
 #contlink {
     color: white;
     font-size:20px;
     font-style: bolder;
     font-family: 'Quicksand', sans-serif;
 }
-
 #contlink:hover {
     font-size:160%;
     font-style:oblique;
 }
-
 #northamerica {
     background-image: url(Images/NorthAmericaCover.jpg);
 }
-
 #centralamerica {
     background-image: url(Images/CentralAmericaCover.jpg);
 }
@@ -260,6 +244,29 @@ div.place{
     
 /*------------------------------------*/
 /*Responsive Web Design*--------------*/
+
+/*Topic flex boxes for each continent page is here*/
+div.contentflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.topic {
+    border:2px solid gold;
+    padding: 10px;
+    margin: 2px;
+    width: 250px;
+    border-radius:0.5em;
+    background-color:whitesmoke;
+}
+#section {
+    background-color: rgba(174, 207, 107, 0.274);
+    padding:20px;
+    margin-top:30px;
+    margin-bottom:30px;
+    border-radius:0.5em;
+}
+/*---------------------------------------------------*/
 
 @media (max-width : 750px){
     body {
