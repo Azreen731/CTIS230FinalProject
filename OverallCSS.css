@@ -64,6 +64,7 @@ div.Button {
     justify-content: space-around; 
     border-radius: 0.5em;
     height:1.50em;
+    border: 0.5px solid gold;
 }
 div.homepagebutton {
     width: calc(60%-20px);
@@ -238,17 +239,45 @@ div.place{
     #highlightlink{
         color:white;
     }
+    #newyorkHighlight {
+        background-image: url(Images/newyorkHighlight.jpg);
+    }
+    #orlandoHighlight {
+        background-image: url(Images/orlandoHighlight.jpg);
+    }
+    #canadaHighlight {
+        background-image: url(Images/canadaHighlight.jpg);
+    }
     #mexicoHighlight{
         background-image: url(Images/mexicoHighlight.jpg);
     }
-
     #costaRicaHighlight {
-        background-image: url(Images/costaRicaHighlight.jpg)
+        background-image: url(Images/costaRicaHighlight.jpg);
     }
     #arubaHighlight {
-        background-image: url(Images/arubaHighlight.jpg)
+        background-image: url(Images/arubaHighlight.jpg);
     }
-    
+    #englandHighlight {
+        background-image: url(Images/englandHighlight.jpg);
+    }
+    #norwayHighlight {
+        background-image: url(Images/norwayHighlight.jpg);
+    }
+    #uaehighlight {
+        background-image: url(Images/uaeHighlight.jpg);
+    }
+    #qatarHighlight {
+        background-image: url(Images/qatarHighlight.jpg);
+    }
+    #bangladeshHighlight {
+        background-image: url(Images/bangladeshHighlight.jpg);
+    }
+    #indiaHighlight {
+        background-image: url(Images/indiaHighlight.jpg);
+    }
+    #hongkongHighlight {
+        background-image: url(Images/hongkongHighlight.jpg);
+    }
 /*Topic flex boxes for each continent page is here*/
 div.contentflex {
     display: flex;
