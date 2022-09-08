@@ -31,6 +31,10 @@ a:link {
     border-bottom: 2px solid transparent; 
 } 
 
+a:visited {
+    color:black;
+}
+
 a:hover {
     font-size:110%;
     border-bottom: 2px solid gold;
@@ -75,7 +79,7 @@ div.homepagebutton {
     padding: 4px;
     justify-content: space-around; 
     border-radius: 0.6em;
-    height:1.50em;
+    height:2em;
     width: fit-content;
     
 }
@@ -305,7 +309,10 @@ div.topic {
 /*---------------------------------------------------*/
 
 /*Gallery slideshow----------------------------------*/
-* {box-sizing:border-box}
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
@@ -314,10 +321,6 @@ div.topic {
   margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
 
 /* Next & previous buttons */
 .prev, .next {
