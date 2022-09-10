@@ -243,7 +243,7 @@ div.place{
     opacity: 0.8;
     border-radius: 1em;  
 }
-    #highlightlink{
+    div.highlightlink{
         color:white;
     }
     #newyorkHighlight {
@@ -301,7 +301,7 @@ div.topic {
     background-color:whitesmoke;
     font-size:17px;
 }
-#section {
+div.section {
     background-color: rgba(174, 207, 107, 0.274);
     padding:20px;
     margin-top:70px;
