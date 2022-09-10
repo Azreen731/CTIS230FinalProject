@@ -88,7 +88,7 @@ div.homepagebutton:hover {
     background-color: rgba(245, 245, 245, 0.678);
     transition-duration: 0.4s;
     transform-origin: right;
-    opacity:0.5em;
+    opacity:0.5;
      
 }
  #home, #gallery, #worldmap {
