@@ -109,6 +109,7 @@ div.Button div.destidropdown a {
 }
 div.Button:hover div.destidropdown a {
     display: block;
+    z-index: 50;
     position: relative;
 }
 /*---------------------------------------------------------*/
