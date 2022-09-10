@@ -72,6 +72,7 @@ div.Button {
 }
 div.homepagebutton {
     width: calc(60%-20px);
+    
     font-size: large;
     text-align:center;
     background-color:transparent;
@@ -88,12 +89,12 @@ div.homepagebutton:hover {
     transition-duration: 0.4s;
     transform-origin: right;
     opacity:0.5em;
-
+     
 }
- #home {
+ #home, #gallery, #worldmap {
     color:white;
  }
- #home:hover {
+ #home:hover, #gallery:hover, #worldmap:hover {
     color:black;
  }
 /*------------------------------------*/
